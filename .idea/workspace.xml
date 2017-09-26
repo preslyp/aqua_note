@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c6036b1-a83d-4d65-a10b-7cca97685ab2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,21 +37,21 @@
       <file leaf-file-name="GenusController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="253">
+              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#40#100#0#PHP" expanded="true" />
-                <element signature="e#678#700#0#PHP" expanded="true" />
+                <element signature="e#966#988#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="598">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -61,8 +60,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+            <state relative-caret-position="694">
+              <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -78,10 +77,10 @@
       <list>
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/web/js/notes.react.js" />
-        <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
       </list>
     </option>
   </component>
@@ -264,12 +263,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506325132741</updated>
       <workItem from="1506325139071" duration="1769000" />
-      <workItem from="1506344927274" duration="9977000" />
+      <workItem from="1506344927274" duration="11779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11746000" />
+    <option name="totallyTimeSpent" value="13548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-129" y="16" width="1922" height="1053" extended-state="6" />
@@ -311,7 +310,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#100#0#PHP" expanded="true" />
-            <element signature="e#678#700#0#PHP" expanded="true" />
+            <element signature="e#966#988#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -356,14 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/notes.react.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -388,17 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#40#100#0#PHP" expanded="true" />
-            <element signature="e#678#700#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -407,10 +387,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#100#0#PHP" expanded="true" />
+            <element signature="e#966#988#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        <state relative-caret-position="694">
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
           <folding />
         </state>
       </provider>
