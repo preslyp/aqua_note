@@ -25,8 +25,7 @@ class GenusController extends Controller
             $funFact = $cache->fetch($key);
         } else {
             sleep(1);
-            $funFact = $this->get('markdown.parser')
-                ->transform($funFact);
+            $funFact = $this->get('markdown.parser')->transform($funFact);
             $cache->save($key, $funFact);
         }
 
