@@ -53,19 +53,23 @@
     <column id="30" parent="24" name="fun_fact">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="31" parent="24" name="is_published">
+      <Position>6</Position>
+      <DataType>tinyint(1)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="31" parent="24" name="PRIMARY">
+    <key id="32" parent="24" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="32" parent="25" name="version">
+    <column id="33" parent="25" name="version">
       <Position>1</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="33" parent="25" name="PRIMARY">
+    <key id="34" parent="25" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
       <Primary>1</Primary>
