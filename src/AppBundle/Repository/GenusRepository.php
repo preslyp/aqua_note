@@ -20,11 +20,11 @@ class GenusRepository extends EntityRepository
     public function findAllPublishedOrderedBySize()
     {
         return $this->createQueryBuilder('gs')
-                    ->andWhere('gs.isPublished = :isPublished')
-                    ->setParameter('isPublished', true)
-                    ->orderBy('gs.speciesCount', 'DESC')
-                    ->getQuery()
-                    ->execute();
+            ->andWhere('gs.isPublished = :isPublished')
+            ->setParameter('isPublished', true)
+            ->orderBy('gs.speciesCount', 'DESC')
+            ->getQuery()
+            ->execute();
     }
 
 }

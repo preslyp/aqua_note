@@ -19,9 +19,9 @@ class GenusController extends Controller
     public function listAction()
     {
 
-        $em= $this->getDoctrine()->getManager();
+        $em = $this->getDoctrine()->getManager();
         $genuses = $em->getRepository('AppBundle:Genus')
-                    ->findAllPublishedOrderedBySize();
+            ->findAllPublishedOrderedBySize();
 
         return $this->render('genus/list.html.twig', [
 
@@ -39,18 +39,17 @@ class GenusController extends Controller
     public function newAction()
     {
         $genus = new Genus();
-        $genus->setName('Octupus'.rand(1,100));
+        $genus->setName('Octupus' . rand(1, 100));
         $genus->setSubFamily('Octopodinae');
         $genus->setSpeciesCount(rand(100, 99999));
 
-        $em= $this->getDoctrine()->getManager();
+        $em = $this->getDoctrine()->getManager();
         $em->persist($genus);
         $em->flush();
 
         return new Response("<html><body>Genus created</body></html>");
 
     }
-
 
 
     /**
@@ -60,7 +59,7 @@ class GenusController extends Controller
     public function showAction($name)
     {
         $em = $this->getDoctrine()->getManager();
-        $genus = $em->getRepository('AppBundle:Genus')->findOneBy(['name' => $name ]);
+        $genus = $em->getRepository('AppBundle:Genus')->findOneBy(['name' => $name]);
 
         if (!$genus) {
             throw $this->createNotFoundException('Not genus find');
@@ -79,7 +78,7 @@ class GenusController extends Controller
 
 
         return $this->render("genus/show.html.twig", [
-            'genus'      => $genus
+            'genus' => $genus
         ]);
     }
 
@@ -91,13 +90,31 @@ class GenusController extends Controller
     public function getNotesAction()
     {
         $notes = [
-            ['id' => 1, 'username' => 'AquaPelham', 'avatarUri' => '/images/leanna.jpeg', 'note' => 'Octopus asked me a riddle, outsmarted me', 'date' => 'Dec. 10, 2015'],
-            ['id' => 2, 'username' => 'AquaWeaver', 'avatarUri' => '/images/ryan.jpeg', 'note' => 'I counted 8 legs... as they wrapped around me', 'date' => 'Dec. 1, 2015'],
-            ['id' => 3, 'username' => 'AquaPelham', 'avatarUri' => '/images/leanna.jpeg', 'note' => 'Inked!', 'date' => 'Aug. 20, 2015'],
+            [
+                'id' => 1,
+                'username' => 'AquaPelham',
+                'avatarUri' => '/images/leanna.jpeg',
+                'note' => 'Octopus asked me a riddle, outsmarted me',
+                'date' => 'Dec. 10, 2015'
+            ],
+            [
+                'id' => 2,
+                'username' => 'AquaWeaver',
+                'avatarUri' => '/images/ryan.jpeg',
+                'note' => 'I counted 8 legs... as they wrapped around me',
+                'date' => 'Dec. 1, 2015'
+            ],
+            [
+                'id' => 3,
+                'username' => 'AquaPelham',
+                'avatarUri' => '/images/leanna.jpeg',
+                'note' => 'Inked!',
+                'date' => 'Aug. 20, 2015'
+            ],
         ];
 
         $data = [
-          'notes' => $notes,
+            'notes' => $notes,
         ];
 
         return new JsonResponse($data);
